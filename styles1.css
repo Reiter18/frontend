@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html body {
+    display: block;
+    max-width: 100%;
+    
+    background-color: rgb(58, 130, 185);
+    font-family: 'Pacifico', cursive;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    inline-size: auto;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 60px;
+    color: rgb(255, 232, 232);
+    font-style: italic;
+    font-weight: 500;
+    
+}
+
+img {
+    position: absolute;
+    top: 80%;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: -10%;
+    top: 89%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #c05c4b;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
